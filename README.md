@@ -97,9 +97,6 @@ export default watchFetchData;
 
    ```
 
-* *operator means it's generator function
-* yield is simlar to ES7 async wait
-* 
 ```jsx harmony
 sagas.js
 import { takeLatest, all, put, fork, call } from "redux-saga/effects";
